@@ -1,0 +1,31 @@
+{
+  "name": "Image-Uploader",
+  "description": "Image Upload based on jQuery and Cropper.js",
+  "main": "src/upload.js",
+  "authors": [
+    "Rufus Mbugua <mbuguarufus@gmail.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "jquery",
+    "image",
+    "upload",
+    "canvas"
+  ],
+  "moduleType": [
+    "node"
+  ],
+  "homepage": "rufusmbugua.github.io/image-upload",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "blueimp-canvas-to-blob": "~3.1.0",
+    "jquery": "~2.2.0",
+    "cropper": "~2.2.5"
+  }
+}
