@@ -84,7 +84,7 @@ module.exports = function(grunt) {
       min: {
         files: ['Gruntfile.js', 'upload.js', '*.html'],
         tasks: ['jshint', 'concat:dist',
-          'clean:temp', 'uglify:dist'
+          'clean:temp', 'uglify:dist', 'sass'
         ],
         options: {
           atBegin: true
